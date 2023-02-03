@@ -1,0 +1,11 @@
+{
+  "name": "@ignite-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "victordev13",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
