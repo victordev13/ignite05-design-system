@@ -6,12 +6,13 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "author": "victordev",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
+    "@ignite-ui/ts-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5"
   }
