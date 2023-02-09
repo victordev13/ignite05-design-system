@@ -1,0 +1,15 @@
+import { Meta, Typeset } from '@storybook/addon-docs'
+import { TokensGrid } from '../../components/TokensGrid'
+import { fontSizes, fonts } from '@ignite-ui/tokens'
+
+<Meta title="Tokens/Font Sizes" />
+
+# Font Sizes
+
+<TokensGrid tokens={fontSizes} showConvertedRemToPx />
+
+<Typeset
+  fontSizes={Object.values(fontSizes)}
+  sampleText={'example'}
+  fontFamily={fonts.default}
+/>
