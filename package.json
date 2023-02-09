@@ -5,5 +5,12 @@
   ],
   "dependencies": {
     "polished": "^4.2.2"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.7.4"
   }
 }
