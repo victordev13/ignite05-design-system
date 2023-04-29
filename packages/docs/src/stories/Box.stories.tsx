@@ -4,11 +4,10 @@ import { Box, BoxProps } from '@ignite-ui/react'
 export default {
   title: 'Surfaces/Box',
   component: Box,
-
   args: {
     children: (
       <>
-        <span>Box element</span>
+        <span style={{ color: 'white' }}>Box element</span>
       </>
     ),
   },
