@@ -16,3 +16,5 @@ export const Avatar = ({ fallbackTheme, ...props }: AvatarProps) => {
     </AvatarContainer>
   )
 }
+
+Avatar.displayName = 'Avatar'
