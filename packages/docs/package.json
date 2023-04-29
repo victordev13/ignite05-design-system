@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@storybook/addon-a11y": "^7.0.7",
     "@storybook/addon-actions": "^7.0.7",
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
@@ -35,6 +36,7 @@
     "@ignite-ui/ts-config": "*",
     "@storybook/addon-docs": "^7.0.7",
     "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

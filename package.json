@@ -3,9 +3,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "polished": "^4.2.2"
-  },
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build"
