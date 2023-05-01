@@ -17,7 +17,11 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm ci && npm run build
+      - run: npm ci
+      - run: npm run build
+        env:
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: victordev-ignite
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
