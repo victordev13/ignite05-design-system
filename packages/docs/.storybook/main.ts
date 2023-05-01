@@ -1,4 +1,6 @@
-module.exports = {
+import type { StorybookConfig } from '@storybook/react-vite';
+
+const config: StorybookConfig = {
   stories: ['../src/pages/**/*.stories.mdx', '../src/stories/**/*.stories.tsx'],
   addons: [
     '@storybook/addon-links',
@@ -15,7 +17,19 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
+  core: {
+    builder: '@storybook/builder-vite',
+  },
   docs: {
-    autodocs: true
-  }
+    autodocs: true,
+  },
+  async viteFinal(config, { configType }) {
+    if (configType === 'PRODUCTION') {
+      config.base = '/ignite05-design-system/';
+    }
+
+    return config;
+  },
 };
+
+export default config;
