@@ -7,7 +7,7 @@ import {
   space,
   fonts,
   lineHeights,
-} from '@ignite-ui/tokens'
+} from '@victordev-ignite-ui/tokens'
 
 export const {
   styled,

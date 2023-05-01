@@ -1,6 +1,7 @@
 {
-  "name": "@ignite-ui/eslint-config",
+  "name": "@victordev-ignite-ui/eslint-config",
   "main": "index.js",
+  "version": "1.0.0",
   "license": "ISC",
   "private": true,
   "devDependencies": {
