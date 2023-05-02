@@ -1,5 +1,11 @@
 # @victordev-ignite-ui/react
 
+## 2.0.2
+
+### Patch Changes
+
+- new Tooltip component
+
 ## 2.0.1
 
 ### Patch Changes
