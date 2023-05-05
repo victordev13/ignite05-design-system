@@ -18,4 +18,4 @@ To publish a new version:
 - [x] Avatar
 - [x] MultiStep
 - [x] Tooltip
-- [ ] Toast
+- [x] Toast

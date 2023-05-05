@@ -8,7 +8,6 @@ export const Button = styled('button', {
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
   boxSizing: 'border-box',
   padding: '0 $4',
 
@@ -77,6 +76,10 @@ export const Button = styled('button', {
     },
 
     size: {
+      xs: {
+        height: 32,
+        paddingInline: '$3',
+      },
       sm: {
         height: 38,
       },
@@ -85,11 +88,20 @@ export const Button = styled('button', {
         height: 46,
       },
     },
+    fitContent: {
+      true: {
+        width: 'fit-content',
+      },
+      false: {
+        minWidth: 120,
+      },
+    },
   },
 
   defaultVariants: {
     variant: 'primary',
     size: 'md',
+    fitContent: false,
   },
 })
 

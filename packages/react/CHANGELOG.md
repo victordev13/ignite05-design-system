@@ -1,5 +1,11 @@
 # @victordev-ignite-ui/react
 
+## 2.0.3
+
+### Patch Changes
+
+- new Toast component
+
 ## 2.0.2
 
 ### Patch Changes
