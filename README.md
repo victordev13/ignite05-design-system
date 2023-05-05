@@ -17,3 +17,5 @@ To publish a new version:
 - [x] Checkbox
 - [x] Avatar
 - [x] MultiStep
+- [x] Tooltip
+- [x] Toast

@@ -1,6 +1,6 @@
 {
   "name": "@victordev-ignite-ui/react",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,11 +13,11 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "@victordev-ignite-ui/eslint-config": "*",
     "@victordev-ignite-ui/tokens": "*",
     "@victordev-ignite-ui/ts-config": "*",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5"
@@ -25,6 +25,8 @@
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.1",
     "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-toast": "^1.1.3",
+    "@radix-ui/react-tooltip": "^1.0.5",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
