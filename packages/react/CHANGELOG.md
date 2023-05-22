@@ -1,5 +1,11 @@
 # @victordev-ignite-ui/react
 
+## 2.0.5
+
+### Patch Changes
+
+- Fix: missing checkbox props
+
 ## 2.0.4
 
 ### Patch Changes
